@@ -1,0 +1,67 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "moduleResolution": "Node16",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2022",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "importHelpers": true,
+    "inlineSources": true,
+    "paths": {
+      "@shared-kernel": [
+        "src/core/shared-kernel"
+      ],
+      "@shared-kernel/*": [
+        "src/core/shared-kernel/*"
+      ]
+    }
+  },
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ],
+    "compilerOptions": {
+      "module": "commonjs",
+      "declaration": true,
+      "moduleResolution": "Node16",
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "es2020",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "incremental": true,
+      "skipLibCheck": true,
+      "strictNullChecks": false,
+      "noImplicitAny": false,
+      "strictBindCallApply": false,
+      "forceConsistentCasingInFileNames": false,
+      "noFallthroughCasesInSwitch": false,
+      "importHelpers": true,
+      "inlineSources": true,
+      "paths": {
+        "@shared-kernel": [
+          "src/core/shared-kernel"
+        ],
+        "@shared-kernel/*": [
+          "src/core/shared-kernel/*"
+        ]
+      }
+    }
+  }
+}
